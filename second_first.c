@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 
-int main() {
+int first() {
     int file = open("test.txt", O_RDONLY);
     if(file == -1) {
         printf("Error opening file");
